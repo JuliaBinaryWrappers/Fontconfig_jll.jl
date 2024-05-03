@@ -8,21 +8,42 @@ using Libuuid_jll
 using Expat_jll
 JLLWrappers.@generate_wrapper_header("Fontconfig")
 JLLWrappers.@declare_executable_product(fc_cache)
+JLLWrappers.@declare_executable_product(fc_pattern)
+JLLWrappers.@declare_executable_product(fc_scan)
+JLLWrappers.@declare_file_product(fonts_conf)
+JLLWrappers.@declare_library_product(libfontconfig, "libfontconfig-1.dll")
 JLLWrappers.@declare_executable_product(fc_cat)
 JLLWrappers.@declare_executable_product(fc_conflist)
 JLLWrappers.@declare_executable_product(fc_list)
 JLLWrappers.@declare_executable_product(fc_match)
-JLLWrappers.@declare_executable_product(fc_pattern)
 JLLWrappers.@declare_executable_product(fc_query)
-JLLWrappers.@declare_executable_product(fc_scan)
 JLLWrappers.@declare_executable_product(fc_validate)
-JLLWrappers.@declare_file_product(fonts_conf)
-JLLWrappers.@declare_library_product(libfontconfig, "libfontconfig-1.dll")
 function __init__()
     JLLWrappers.@generate_init_header(FreeType2_jll, Bzip2_jll, Zlib_jll, Libuuid_jll, Expat_jll)
     JLLWrappers.@init_executable_product(
         fc_cache,
         "bin\\fc-cache.exe",
+    )
+
+    JLLWrappers.@init_executable_product(
+        fc_pattern,
+        "bin\\fc-pattern.exe",
+    )
+
+    JLLWrappers.@init_executable_product(
+        fc_scan,
+        "bin\\fc-scan.exe",
+    )
+
+    JLLWrappers.@init_file_product(
+        fonts_conf,
+        "etc\\fonts\\fonts.conf",
+    )
+
+    JLLWrappers.@init_library_product(
+        libfontconfig,
+        "bin\\libfontconfig-1.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
@@ -46,18 +67,8 @@ function __init__()
     )
 
     JLLWrappers.@init_executable_product(
-        fc_pattern,
-        "bin\\fc-pattern.exe",
-    )
-
-    JLLWrappers.@init_executable_product(
         fc_query,
         "bin\\fc-query.exe",
-    )
-
-    JLLWrappers.@init_executable_product(
-        fc_scan,
-        "bin\\fc-scan.exe",
     )
 
     JLLWrappers.@init_executable_product(
@@ -65,19 +76,8 @@ function __init__()
         "bin\\fc-validate.exe",
     )
 
-    JLLWrappers.@init_file_product(
-        fonts_conf,
-        "etc\\fonts\\fonts.conf",
-    )
-
-    JLLWrappers.@init_library_product(
-        libfontconfig,
-        "bin\\libfontconfig-1.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
     JLLWrappers.@generate_init_footer()
-    ENV["FONTCONFIG_FILE"] = get(ENV, "FONTCONFIG_FILE", fonts_conf)
-    ENV["FONTCONFIG_PATH"] = get(ENV, "FONTCONFIG_PATH", dirname(ENV["FONTCONFIG_FILE"]))
+    get!(ENV, "FONTCONFIG_FILE", fonts_conf)
+    get!(ENV, "FONTCONFIG_PATH", dirname(ENV["FONTCONFIG_FILE"]))
 
 end  # __init__()

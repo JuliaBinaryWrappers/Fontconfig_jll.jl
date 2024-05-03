@@ -1,143 +1,143 @@
 [[Fontconfig]]
 arch = "aarch64"
-git-tree-sha1 = "e6b9fb44029423f5cd69e0cbbff25abcc4b32a8f"
+git-tree-sha1 = "bb74171086b39a991ff3f12027bdf216d0fe9bd3"
 os = "macos"
 
     [[Fontconfig.download]]
-    sha256 = "53d31fd7ac68cf67cfe3f7b98301b35769bfcd443fca7dc02a60f6f869bdb3d1"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.aarch64-apple-darwin.tar.gz"
+    sha256 = "697ce34f83b4ee924424663e74302a987ee6a32057b3b1f5a08592db41155f03"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.aarch64-apple-darwin.tar.gz"
 [[Fontconfig]]
 arch = "aarch64"
-git-tree-sha1 = "062b5a83697ea746e13737b23f8aab14737b1226"
+git-tree-sha1 = "dcb0e386d2497f19f89608ce6bb84f746f574cf1"
 libc = "glibc"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "35825d76db5f96b15a0d747a1f9e51d161415e28138f8d28f3390d5d21bf9305"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.aarch64-linux-gnu.tar.gz"
+    sha256 = "bc56afe71167364df11fc5b23d7ae4ce13793266b0cb117bf8472d8ecb8f1bb1"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.aarch64-linux-gnu.tar.gz"
 [[Fontconfig]]
 arch = "aarch64"
-git-tree-sha1 = "c6e734fde94ab7c91f35987164d69b519c992333"
+git-tree-sha1 = "9ef9b2e623b9c820f76c3bc66ad2bedcc77cef75"
 libc = "musl"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "95c4ce466883bf72d3cd14172bfc1526e1f8903cea1c07f707537ae49b7ca5dc"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.aarch64-linux-musl.tar.gz"
+    sha256 = "bedca366da825eaee42710705de60c5396d2a0009af967073d2c9fc226b7b6eb"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.aarch64-linux-musl.tar.gz"
 [[Fontconfig]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "61d2d048b1b01ead441a41ca0d80fa2ca6496910"
+git-tree-sha1 = "d0a33e58dc2c04dbaa2f037d3bc6f1992bf5f9ec"
 libc = "glibc"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "d297e69c14ed23dc898f64bb9d0cc01f289c26ea8b485f86d97305dba1f6a21a"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "4a2e7639b198125907756fcc64a6fd02f88941362ed714625e5823d9afd77c70"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.armv6l-linux-gnueabihf.tar.gz"
 [[Fontconfig]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "2297edd5059b2bc4cca496722c0ccce9ad23e366"
+git-tree-sha1 = "1bedcf20b02aff823028f3e2a2bab8e9637ed197"
 libc = "musl"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "8cf38bbb90782dac1a5f0900283051d96d84ea24b6723f1466c1a1f01bd65b24"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "f3775c3d646ff98b86ac3b43c0c0799ce475a025da6705476083ec77bc7a4cb9"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.armv6l-linux-musleabihf.tar.gz"
 [[Fontconfig]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "44e3a6ca151cdd2e1228e1991a24331f329b8a1f"
+git-tree-sha1 = "28d2c74edc4900c7e30f3573413c5195f72c9962"
 libc = "glibc"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "075e57e3ce89d98610c6bca12670c2a55561741e08c9fa01a11b73b0a8a5b1bf"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "a933b683f9ae503e4e654b022cb517b1dbd7363e32fc51061e24afe9b616aa74"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.armv7l-linux-gnueabihf.tar.gz"
 [[Fontconfig]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "ebac696ab3f15dd96510dcf52119d166f6ad45ab"
+git-tree-sha1 = "669de22a83d632146f68a6f60b40cdc0d3cf57c7"
 libc = "musl"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "ebca1a718468640c7590861bcb8986119b069c048fc524b24c415893a9e11efb"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "ad557a559de3ec0fa991f8662620979527562eeb177fcbb74ae9e21c5d6ab87b"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.armv7l-linux-musleabihf.tar.gz"
 [[Fontconfig]]
 arch = "i686"
-git-tree-sha1 = "a4d5fd9bf7a958cf0008f0b2a4078549337859ef"
+git-tree-sha1 = "81625fd20c6f5b533a99714891a57db06aca0530"
 libc = "glibc"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "cfb1298a02a7dd059e449f72ada3c7d02c06ca5abbf874b28a1492d39b856f37"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.i686-linux-gnu.tar.gz"
+    sha256 = "4d283e87a87156ee2b44a76f16f781dd955fd10d094ce8b7fd1070eec0b7fff7"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.i686-linux-gnu.tar.gz"
 [[Fontconfig]]
 arch = "i686"
-git-tree-sha1 = "8e234ee1ca3c1323c8fe07c0c85cb4a288911dcc"
+git-tree-sha1 = "7af5ca0e80ab96d048f2e942a4acef0238618850"
 libc = "musl"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "0e08b8c7be848ad090dcd9a9e2fe0e21fb48ea9769010fd56a632b2f320038a9"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.i686-linux-musl.tar.gz"
+    sha256 = "c3f88fddce1ab210dea2acac38946998c761d037470cdbfb9ee7e85ac16f6381"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.i686-linux-musl.tar.gz"
 [[Fontconfig]]
 arch = "i686"
-git-tree-sha1 = "c22853f934c1d060e4ed6cf23b5df6196ce75b28"
+git-tree-sha1 = "c68efcd1cb7023bfa2b6ec1764cb6757cf939047"
 os = "windows"
 
     [[Fontconfig.download]]
-    sha256 = "b2918c1cf3946b5858c169b8244b8131fddbcc225ffe9476fb5550032e83b106"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.i686-w64-mingw32.tar.gz"
+    sha256 = "cae51d9f1e5cf6ce6e4a5d05fe870bea9f17fd98571d007737f366b421137b93"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.i686-w64-mingw32.tar.gz"
 [[Fontconfig]]
 arch = "powerpc64le"
-git-tree-sha1 = "69eb396a443e175982a3abcdb7c6e2880341c8b2"
+git-tree-sha1 = "69ae134f51fb15a12f2be688a689db5e642425ca"
 libc = "glibc"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "d2496b5425b540af8aa98c62bb1b6dd461d71e7e5ebab695ac6271172fd1732b"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "ec4671121e6400ec5a49495cfed215ee888524593c2b38c33cb13088ee14131c"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.powerpc64le-linux-gnu.tar.gz"
 [[Fontconfig]]
 arch = "x86_64"
-git-tree-sha1 = "2cb0d96a63120d1a0868c905452895a59add9a0d"
+git-tree-sha1 = "2b17f8eb5c0167b92ee1ef185a98606e9d27b75e"
 os = "macos"
 
     [[Fontconfig.download]]
-    sha256 = "23e979eac7e3b7bf88a231119f8c1d06ded17ea5c41a5dd108f84f27f96c52e1"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.x86_64-apple-darwin.tar.gz"
+    sha256 = "0c49787687f7aae4f1c2c73743d68a6200646bd6acf198c8ce3a3017eca5f356"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.x86_64-apple-darwin.tar.gz"
 [[Fontconfig]]
 arch = "x86_64"
-git-tree-sha1 = "387d89822da323c098aba6f8ab316874d4e90f2e"
+git-tree-sha1 = "558980a93131f08be5335521b84e137ee3172296"
 libc = "glibc"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "e11e34977807b958fe5e7cea59a8354d94e11a052bad1348768aba8143769ea1"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.x86_64-linux-gnu.tar.gz"
+    sha256 = "a03ad26e703a3cb59cd0e1f529171f30f976e6db55dd3397baf01a9fada82b0d"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.x86_64-linux-gnu.tar.gz"
 [[Fontconfig]]
 arch = "x86_64"
-git-tree-sha1 = "d3f6216e7ff5ce63217c34664b70638ca90a33bf"
+git-tree-sha1 = "c16b2b27cdb2da52004d0c1056235ce7afa09246"
 libc = "musl"
 os = "linux"
 
     [[Fontconfig.download]]
-    sha256 = "dfb29124b792b7d7919a56c3b55f730ff3ef714f99b519a66579e8e174468ed7"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.x86_64-linux-musl.tar.gz"
+    sha256 = "3c154dda74238e82ca7f3af026ad7b3600af730fa3bf93fd33848aaa098f374c"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.x86_64-linux-musl.tar.gz"
 [[Fontconfig]]
 arch = "x86_64"
-git-tree-sha1 = "db3b0a3ab3d340816110847384a77a9a27c63b9c"
+git-tree-sha1 = "1bcc1a6b676f2334413dfded4b80782cc130a602"
 os = "freebsd"
 
     [[Fontconfig.download]]
-    sha256 = "e2a506e678d77ad2b60bc3764bb54c0c6c0527a1f0859169079b93216c6564d8"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "3c680687a71d91f8a13014b2af05334d18697651d0929c183ec3338491e9ba8b"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.x86_64-unknown-freebsd.tar.gz"
 [[Fontconfig]]
 arch = "x86_64"
-git-tree-sha1 = "c916a560fa109a4db3d6938a8ab1a6a8b4a09731"
+git-tree-sha1 = "ccc2c196c08c418da98521a2b81e3fdb0cbd33d5"
 os = "windows"
 
     [[Fontconfig.download]]
-    sha256 = "0a7b3bfbc8b3c3d065597c80c20e9fefc1255477dc8057ffa2702a4dd5f1b966"
-    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.93+0/Fontconfig.v2.13.93.x86_64-w64-mingw32.tar.gz"
+    sha256 = "2f3ac05fc34d1eea51c1460e93cb92c40b545261fe9e5d6892d85451d1d84237"
+    url = "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl/releases/download/Fontconfig-v2.13.96+0/Fontconfig.v2.13.96.x86_64-w64-mingw32.tar.gz"
