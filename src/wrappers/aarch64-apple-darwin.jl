@@ -7,43 +7,28 @@ using Zlib_jll
 using Libuuid_jll
 using Expat_jll
 JLLWrappers.@generate_wrapper_header("Fontconfig")
-JLLWrappers.@declare_executable_product(fc_cache)
-JLLWrappers.@declare_executable_product(fc_pattern)
-JLLWrappers.@declare_executable_product(fc_scan)
-JLLWrappers.@declare_file_product(fonts_conf)
 JLLWrappers.@declare_library_product(libfontconfig, "@rpath/libfontconfig.1.dylib")
+JLLWrappers.@declare_executable_product(fc_cache)
 JLLWrappers.@declare_executable_product(fc_cat)
 JLLWrappers.@declare_executable_product(fc_conflist)
 JLLWrappers.@declare_executable_product(fc_list)
 JLLWrappers.@declare_executable_product(fc_match)
+JLLWrappers.@declare_executable_product(fc_pattern)
 JLLWrappers.@declare_executable_product(fc_query)
+JLLWrappers.@declare_executable_product(fc_scan)
 JLLWrappers.@declare_executable_product(fc_validate)
+JLLWrappers.@declare_file_product(fonts_conf)
 function __init__()
     JLLWrappers.@generate_init_header(FreeType2_jll, Bzip2_jll, Zlib_jll, Libuuid_jll, Expat_jll)
-    JLLWrappers.@init_executable_product(
-        fc_cache,
-        "bin/fc-cache",
-    )
-
-    JLLWrappers.@init_executable_product(
-        fc_pattern,
-        "bin/fc-pattern",
-    )
-
-    JLLWrappers.@init_executable_product(
-        fc_scan,
-        "bin/fc-scan",
-    )
-
-    JLLWrappers.@init_file_product(
-        fonts_conf,
-        "etc/fonts/fonts.conf",
-    )
-
     JLLWrappers.@init_library_product(
         libfontconfig,
         "lib/libfontconfig.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        fc_cache,
+        "bin/fc-cache",
     )
 
     JLLWrappers.@init_executable_product(
@@ -67,13 +52,28 @@ function __init__()
     )
 
     JLLWrappers.@init_executable_product(
+        fc_pattern,
+        "bin/fc-pattern",
+    )
+
+    JLLWrappers.@init_executable_product(
         fc_query,
         "bin/fc-query",
     )
 
     JLLWrappers.@init_executable_product(
+        fc_scan,
+        "bin/fc-scan",
+    )
+
+    JLLWrappers.@init_executable_product(
         fc_validate,
         "bin/fc-validate",
+    )
+
+    JLLWrappers.@init_file_product(
+        fonts_conf,
+        "etc/fonts/fonts.conf",
     )
 
     JLLWrappers.@generate_init_footer()
