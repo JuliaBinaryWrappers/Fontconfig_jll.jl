@@ -1,6 +1,6 @@
 name = "Fontconfig_jll"
 uuid = "a3f928ae-7b40-5064-980b-68af3947d34b"
-version = "2.15.0+0"
+version = "2.16.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -13,10 +13,12 @@ Expat_jll = "2e619515-83b5-522b-bb60-26c02a35a201"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
-JLLWrappers = "1.2.0"
+JLLWrappers = "1.7.0"
 julia = "1.6"
-Bzip2_jll = "1.0.8"
-FreeType2_jll = "2.13.3"
+Bzip2_jll = "1.0.9"
+Zlib_jll = "1.2.12"
+FreeType2_jll = "2.13.4"
+Libuuid_jll = "2.41.0"
 Libdl = "< 0.0.1, 1"
-Expat_jll = "2.6.4"
+Expat_jll = "2.6.5"
 Artifacts = "< 0.0.1, 1"
